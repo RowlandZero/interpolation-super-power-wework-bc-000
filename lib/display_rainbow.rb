@@ -18,11 +18,5 @@ display_rainbow(colors)
 
 
 def display_rainbow(colors)
-puts "#{colors[0].initial.upcase} : #{colors[0]}"
-puts "#{colors[1].initial.upcase} : #{colors[1]}"
-puts "#{colors[2].initial.upcase} : #{colors[2]}"
-puts "#{colors[3].initial.upcase} : #{colors[3]}"
-puts "#{colors[4].initial.upcase} : #{colors[4]}"
-puts "#{colors[5].initial.upcase} : #{colors[5]}"
-puts "#{colors[6].initial.upcase} : #{colors[6]}"
+puts "#{colors[0].initial.upcase} : #{colors[0]}, #{colors[1].initial.upcase} : #{colors[1]}, #{colors[2].initial.upcase} : #{colors[2]}, #{colors[3].initial.upcase} : #{colors[3]}, #{colors[4].initial.upcase} : #{colors[4]}, #{colors[5].initial.upcase} : #{colors[5]}, #{colors[6].initial.upcase} : #{colors[6]}"
 end
